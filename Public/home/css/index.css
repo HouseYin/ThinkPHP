@@ -1,0 +1,35 @@
+a,a:hover{text-decoration: none}
+ul{
+	list-style: none;
+}
+body > div{max-width: 960px;margin: 0 auto}
+header{
+	max-width: 960px;
+	margin: 0 auto;
+	text-align: center;
+	background: url(../../img/banner.jpg) no-repeat top center;
+	background-size: 100%;
+}
+.nav_con{
+	max-width: 960px;
+	min-height: 30px;
+	margin: 0 auto;
+	font-size: 14px;
+}
+.navbar-collapse{
+	padding: 0;
+}
+.nav_item a.nav_link{
+	padding: 5px 15px;
+}
+.nav-tabs:after{
+	content: '';
+	width: 0;
+	height: 0;
+	display: block;
+	clear: both;
+}
+.footer{
+	margin: 0 auto;
+	text-align: center;
+}

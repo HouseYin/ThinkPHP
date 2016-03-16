@@ -1,0 +1,23 @@
+a,a:hover{text-decoration: none}
+ul{
+	list-style: none;
+}
+header{
+	text-align: center;
+}
+.nav_con{
+	width: 960px;
+	min-height: 30px;
+	margin: 0 auto;
+	font-size: 14px;
+}
+.nav_item a.nav_link{
+	padding: 5px 15px;
+}
+.nav-tabs:after{
+	content: '';
+	width: 0;
+	height: 0;
+	display: block;
+	clear: both;
+}
