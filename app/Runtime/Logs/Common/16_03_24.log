@@ -1,0 +1,30 @@
+[ 2016-03-24T12:12:07+08:00 ] ::1 /ThinkPHP/app/Home/View/Index/__PUBLIC__/css/bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:App
+
+[ 2016-03-24T12:12:07+08:00 ] ::1 /ThinkPHP/app/Home/View/Index/__PUBLIC__/home/css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:App
+
+[ 2016-03-24T12:12:08+08:00 ] ::1 /ThinkPHP/app/Home/View/Index/__PUBLIC__/js/jQuery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:App
+
+[ 2016-03-24T12:12:08+08:00 ] ::1 /ThinkPHP/app/Home/View/Index/__PUBLIC__/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:App
+
+[ 2016-03-24T13:14:40+08:00 ] ::1 /ThinkPHP/inset.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Inset
+

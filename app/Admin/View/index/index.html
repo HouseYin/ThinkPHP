@@ -13,75 +13,53 @@
 	<script src="__PUBLIC__/js/bootstrap.min.js"></script>
 </head>
 <body>
-	<header class="header">
-		<img src="__PUBLIC__/img/banner.jpg" alt="">
+	<header class="header clear">
+		<h2>光电技术实验中心后台</h2>
+		<div class="info-con">
+			<ul class="clear">
+				<li>222 |</li>
+				<li>222 |</li>
+				<li>222 </li>
+			</ul>
+		</div>
 	</header>
-	<div class="nav_con navbar navbar-default">
-		<ul class="nav navbar-nav">
-			<li class="nav_item active">
-				<a class="nav_link dropdown" data-toggle="dropdown" href="">网站首页</a>
-				<ul class="dropdown-menu">
-					<li class="list"></li>
-				</ul>
-			</li>
-			<li class="nav_item dropdown">
-				<a class="nav_link dropdown" data-toggle="dropdown" href="">教学队伍</a>
-				<ul class="dropdown-menu">
-					<li class="list"></li>
-				</ul>
-			</li>
-			<li class="nav_item dropdown">
-				<a class="nav_link dropdown" data-toggle="dropdown" href="">教研改革</a>
-				<ul class="dropdown-menu">
-					<li class="list"></li>
-				</ul>
-			</li>
-			<li class="nav_item dropdown">
-				<a class="nav_link dropdown" data-toggle="dropdown" href="">课程教学</a>
-				<ul class="dropdown-menu">
-					<li class="list"></li>
-				</ul>
-			</li>
-			<li class="nav_item dropdown">
-				<a class="nav_link dropdown" data-toggle="dropdown" href="">方法手段</a>
-				<ul class="dropdown-menu">
-					<li class="list"></li>
-				</ul>
-			</li>
-			<li class="nav_item dropdown">
-				<a class="nav_link dropdown" data-toggle="dropdown" href="">教学条件</a>
-				<ul class="dropdown-menu">
-					<li class="list"></li>
-				</ul>
-			</li>
-			<li class="nav_item dropdown">
-				<a class="nav_link dropdown" data-toggle="dropdown" href="">教学效果</a>
-				<ul class="dropdown-menu">
-					<li class="list"></li>
-				</ul>
-			</li>
-			<li class="nav_item dropdown">
-				<a class="nav_link dropdown" data-toggle="dropdown" href="">创新教育</a>
-				<ul class="dropdown-menu">
-					<li class="list"></li>
-				</ul>
-			</li>
-			<li class="nav_item dropdown">
-				<a class="nav_link dropdown" data-toggle="dropdown" href="">教学录像</a>
-				<ul class="dropdown-menu">
-					<li class="list"></li>
-				</ul>
-			</li>
-		</ul>
-	</div>
-	<div class="container">
+	<div class="container main">
 		<div class="row">
-			
+			<div class="col-xs-2 left-nav">
+				<ul>
+					<li class="nav-on"><a href="javascript:void(0)" class="config_btn">基本信息</a></li>
+					<li><a href="http://localhost/ThinkPHP/index.php/Admin/article/index/p/1.html" class="article_btn">所有文章</a></li>
+					<li><a href="http://localhost/ThinkPHP/index.php/Admin/news/index/p/1" class="news_btn">所有新闻</a></li>
+					<li><a href="http://localhost/ThinkPHP/index.php/Admin/edit/" class="add_btn">发表文章或新闻</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-10 right-con">
+				<div class="config_con">
+					<volist name="config_list" id='vo_a'>
+						{$vo_a[id]} <br>
+						{$vo_a[title]} <br>
+						{$vo_a[content]} <br>
+					</volist>
+				</div>
+			</div>
 		</div>
 	</div>
 	<footer class="footer">
 		IP:0000000
 	</footer>
-
+	
 </body>
+<script>
+	$(function(){
+		$(document).on("click",".left-nav li",function(){
+			if ($(this).hasClass("nav-on")) {
+				return false;
+			}else{
+				$(this).addClass("nav-on").siblings("li").removeClass("nav-on");
+				var child_class = $(this).find("a").attr("class").split("_btn");
+				$("."+child_class[0]+"_con").show().siblings().hide();
+			}
+		})
+	})
+</script>
 </html>
