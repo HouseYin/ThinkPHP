@@ -11,15 +11,17 @@
 	<link rel="stylesheet" href="__PUBLIC__/admin/css/index.css">
 	<script src="__PUBLIC__/js/jQuery.js"></script>
 	<script src="__PUBLIC__/js/bootstrap.min.js"></script>
+	<style>
+		.right-con{overflow-y:scroll;}
+	</style>
 </head>
 <body>
 	<header class="header clear">
 		<h2>光电技术实验中心后台</h2>
 		<div class="info-con">
 			<ul class="clear">
-				<li>222 |</li>
-				<li>222 |</li>
-				<li>222 </li>
+				<li>{$name} |</li>
+				<li id="logout">退出 </li
 			</ul>
 		</div>
 	</header>
@@ -36,7 +38,7 @@
 			<div class="col-xs-10 right-con row">
 				<div class="form_con">
 					<div class="item">
-						<div class="typeclass">
+						<div class="typeclass ml50">
 							<label for="mytxt">请选择发文类型：</label>
 							<select id="typeclass">
 								<option value="文章">文章</option>
@@ -81,13 +83,8 @@
 <!-- 实例化编辑器 -->
 <script type="text/javascript">
 	$(function(){
-		var ue = UE.getEditor('content');
-		$("#submit").on("click",function(){
-			var check = checkPrama();
-			$.post("__URL__/edit",check,function(data){
-				console.log(data);
-			})
-		})
+		var ue = UE.getEditor('content',{initialFrameHeight:300
+		});
 		function setTABClassID(str){
 			var bid;
 			switch(str){
@@ -115,7 +112,7 @@
 				alert("正文不能为空！！")
 			}else{
 				var bid = setTABClassID(tabclass);
-				alert(bid);
+				//alert(bid);
 				Prama = {
 					"typeclass":typeclass,
 					"bid":bid,
@@ -125,6 +122,35 @@
 				return Prama;
 			}
 		}
+		$("#submit").on("click",function(e){
+			e.preventDefault();
+			e.stopPropagation();
+			var prama = checkPrama();
+			console.log(prama);
+			$.post('__URL__/edit',prama,function(data){
+				console.log("data:"+data);
+			});
+			return false;
+		})
+		$("#typeclass").change(function(){
+			if($(this).val()=='新闻'){
+				$(".tabclass").hide();
+			}else{
+				$(".tabclass").show();
+			}
+		})
+				$(document).on("click",'#logout',function(){
+			var r = confirm("确定退出？");
+			if (r) {
+				$.post('__ROOT__/Admin/Index/logout',{},function(data){
+					var dt = eval("("+data+")");
+					if (dt.code===0) {
+						console.log(dt)
+						window.location = '__ROOT__/Admin/login'
+					}
+				})
+			}
+		})
 	})
 </script>
 </html>

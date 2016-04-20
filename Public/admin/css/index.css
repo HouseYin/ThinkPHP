@@ -4,11 +4,10 @@ a,a:link,a:visited,a:hover,a:active{
 	text-decoration: none;
 }
 body{
-	background: #52D9EF;
+	background: #52D7BB;
 }
 header{
 	text-align: center;
-	background: #52D9EF;
 	color: #fff;
 	padding: 5px 0 15px 0;
 }
@@ -26,6 +25,9 @@ header h2{
 	float: left;
 	margin-left: 30px;
 }
+#logout{
+	cursor: pointer;
+}
 .info-con{
 	float: right;
 	margin-right: 60px;
@@ -37,10 +39,9 @@ header h2{
 }
 footer{
 	display: block;
-	background: #52D9EF;
 }
 .main{
-	height: 500px;
+	height: 556px;
 	overflow: hidden;
 	margin:0;
 	padding: 0;	
@@ -49,7 +50,7 @@ footer{
 .left-nav{
 	background: #ccc;
 	color: #fff;
-	height: 500px;
+	height: 556px;
 	padding-right: 0;
 }
 .left-nav ul{
@@ -70,7 +71,7 @@ footer{
 }
 .right-con{
 	background: #fff;
-	height: 500px;
+	height: 556px;
 	position: relative;
 }
 .form_con{
@@ -80,7 +81,7 @@ footer{
 }
 #content{
 	width: 100%;
-	height: 260px;	
+	
 }
 #submit{
 	position: absolute;
@@ -94,7 +95,144 @@ footer{
 	line-height: 30px;
 	border-radius: 3px;
 	cursor: pointer;
+	z-index: 99999
 }
 .typeclass,.tabclass,.a_title_con{
+	display: inline-block;
+}
+.article_con{
+	overflow-y: scroll;
+	height: 556px;
+}
+.search_div{
+	margin-top: 20px;
+	text-align: right;
+	padding-right: 5px;
+}
+#search{
+	background: #52D9EF;
+	display: inline-block;
+	width: 50px;
+	text-align: center;
+	cursor: pointer;
+}
+.article_div{
+	margin:10px 0 30px 0;
+	border:1px solid #ccc;
+}
+.page{
+	text-align: right;
+	margin-right: 20px;
+}
+.page a,.page span{
+	margin-right: 15px;
+}
+.article_h_msg{
+	margin-bottom: 10px;
+	padding: 5px;
+	border-bottom:1px solid #ddd;
+}
+.article_content{
+	margin-bottom: 10px;
+	padding: 5px;
+	border-bottom: 1px solid #ddd;
+}
+.article_h_msg span{
+	display: inline-block;
+}
+.article_id{
+	margin-right: 60px;
+}
+.delete_article{
+	cursor: pointer;
+	background-color: #ddd;
+	width: 50px;
+	text-align: center;
+	float: right;
+}
+.sendtime{
+	margin-bottom: 5px;
+	text-align: right;
+	margin-right: 20px;
+}
+.config_con{
+	margin-top: 20px;
+	padding: 10px 0;
+	border:1px solid #ddd;
+}
+.config_e_div{
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 10px;
+}
+.msg{
+	padding:5px 10px;
+
+
+}
+#config_e{
+	cursor: pointer;
+	width: 50px;
+	text-align: center;
+	background: #ddd;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+.config_delete,.change{
+	display: inline-block;
+	width: 50px;
+	float: right;
+	text-align: center;
+	background-color: #ddd;
+	margin-left: 20px;
+	cursor: pointer;
+}
+.alert{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.5);
+	display: none;
+}
+.alert_c{
+	width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px;
+    margin-left: -250px;
+    padding: 20px;
+    background: #fff;
+    overflow-y:scroll;
+}
+.title{
+	width: 15%;
+}
+.des{
+	width: 80%;
+}
+.config_button{
+	margin-top: 15px;
+	text-align: center;
+
+}
+td{
+	padding: 10px;
+}
+.config_content{
+	margin-top: 10px
+}
+.config_content .con_e{
+	width: 90%;
+	display: inline-block;
+	vertical-align: top;
+	height: 300px;
+	border:1px solid #ccc;
+}
+.config_sure,.config_cancle{
+	width: 50px;
+	background: #ddd;
+	cursor: pointer;
 	display: inline-block;
 }

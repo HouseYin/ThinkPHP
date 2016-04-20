@@ -17,9 +17,8 @@
 		<h2>光电技术实验中心后台</h2>
 		<div class="info-con">
 			<ul class="clear">
-				<li>222 |</li>
-				<li>222 |</li>
-				<li>222 </li>
+				<li>{$name} |</li>
+				<li id="logout">退出 </li>
 			</ul>
 		</div>
 	</header>
@@ -36,11 +35,20 @@
 			<div class="col-xs-10 right-con">
 				<div class="news_con">
 					<volist name="news_list" id='vo_c'>
-						<div>
-							{$vo_c["nid"]} <br>
-							{$vo_c["title"]} <br>
-							{$vo_c["content"]} <br>
-							{$vo_c["sendtime"]} <br>
+						<div class="article_div">
+							<div class="article_h_msg">
+								<span class="article_id">ID:{$vo_c["id"]}</span>
+								<span class="article_title">新闻标题:{$vo_c["title"]}
+								</span>
+								<span class="delete_article">
+									删除
+								</span>
+							</div>
+							<div class="article_content">{$vo_c["content"]}
+							</div>
+							<div class="sendtime">{$vo_c["sendtime"]}
+							</div> 
+
 						</div>
 					</volist>
 					<div class="page">{$news_page}</div>
@@ -55,13 +63,29 @@
 </body>
 <script>
 	$(function(){
-		$(document).on("click",".left-nav li",function(){
-			if ($(this).hasClass("nav-on")) {
-				return false;
-			}else{
-				$(this).addClass("nav-on").siblings("li").removeClass("nav-on");
-				var child_class = $(this).find("a").attr("class").split("_btn");
-				$("."+child_class[0]+"_con").show().siblings().hide();
+		$(document).on("click",'.delete_article',function(){
+			var r = confirm("确定删除新闻？");
+			if (r) {
+				var id = $(this).parent().find(".article_id").text().replace("ID:",'').trim();
+				$.post('__URL__/delete',{"id":id},function(data){
+					var dt = eval("("+data+")");
+					console.log(dt)
+					alert(dt.msg);
+					location.reload();
+				})
+			}
+		})
+
+		$(document).on("click",'#logout',function(){
+			var r = confirm("确定退出？");
+			if (r) {
+				$.post('__ROOT__/Admin/Index/logout',{},function(data){
+					var dt = eval("("+data+")");
+					if (dt.code===0) {
+						console.log(dt)
+						window.location = '__ROOT__/Admin/login'
+					}
+				})
 			}
 		})
 	})

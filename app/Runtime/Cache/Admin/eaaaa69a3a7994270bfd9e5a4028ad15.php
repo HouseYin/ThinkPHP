@@ -17,9 +17,8 @@
 		<h2>光电技术实验中心后台</h2>
 		<div class="info-con">
 			<ul class="clear">
-				<li>222 |</li>
-				<li>222 |</li>
-				<li>222 </li>
+				<li><?php echo ($name); ?> |</li>
+				<li id="logout">退出</li>
 			</ul>
 		</div>
 	</header>
@@ -35,17 +34,34 @@
 			</div>
 			<div class="col-xs-10 right-con">
 				<div class="config_con">
-					<?php if(is_array($config_list)): $i = 0; $__LIST__ = $config_list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo_a): $mod = ($i % 2 );++$i; echo ($vo_a[id]); ?> <br>
-						<?php echo ($vo_a[title]); ?> <br>
-						<?php echo ($vo_a[content]); ?> <br><?php endforeach; endif; else: echo "" ;endif; ?>
-				</div>
+					<div class="config_e_div">
+						<div id="config_e">添加</div>
+					</div>
+					<table>
+						<?php if(is_array($config_list)): $i = 0; $__LIST__ = $config_list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo_a): $mod = ($i % 2 );++$i;?><tr id=<?php echo ($vo_a[id]); ?>>
+								<td class="title"><?php echo ($vo_a[title]); ?></td>
+								<td class="des"><?php echo ($vo_a[content]); ?></td>
+								<td><span class="config_delete">删除</span></td>
+							</tr><?php endforeach; endif; else: echo "" ;endif; ?>
+				</table>
 			</div>
 		</div>
 	</div>
-	<footer class="footer">
-		IP:0000000
-	</footer>
-	
+</div>
+<footer class="footer">
+	IP:0000000
+</footer>
+<div class="alert">
+	<div class="alert_c">
+		<div class="config_title">标题:<input type="text" placeholder="请输入title"></div>
+		<div class="config_content">内容:<div contenteditable="true" class="con_e"></div>
+
+		<div class="config_button">
+			<div class="config_sure">确定</div>
+			<div class="config_cancle">取消</div>
+		</div>
+	</div>
+</div>
 </body>
 <script>
 	$(function(){
@@ -56,6 +72,60 @@
 				$(this).addClass("nav-on").siblings("li").removeClass("nav-on");
 				var child_class = $(this).find("a").attr("class").split("_btn");
 				$("."+child_class[0]+"_con").show().siblings().hide();
+			}
+		})
+		$("#config_e").on("click",function(){
+			$(".alert").show();
+		})
+		$(".config_cancle").on("click",function(){
+			$(".alert").hide();
+		})
+		$(".config_sure").on("click",function(){
+			var title = $(".config_title input").val();
+			var content = $(".config_content .con_e").html();
+			if (title==''||content=='') {
+				alert("请将必要信息填写完整！");
+			}else{
+				$.post("/ThinkPHP/index.php/Admin/Index/addConfig",{"title":title,"content":content},function(data){
+					console.log(data);
+					var dt = eval("("+data+")");
+					if (dt.code==0) {
+						alert(dt.msg);
+						location.reload();
+					}else{
+						alert("dt.msg"+',请重新添加！');
+
+					}
+				})
+			}
+		})
+		$(document).on("click",'.config_delete',function(){
+			var r = confirm("确定删除？");
+			if (r) {
+				var id = $(this).parent().attr("id");
+				$.post('/ThinkPHP/index.php/Admin/Index/delConfig',{"id":id},function(data){
+					console.log(data);
+					var dt = eval("("+data+")");
+					if (dt.code==0) {
+						alert(dt.msg);
+						location.reload();
+					}else{
+						alert("dt.msg"+',请重试！');
+
+					}
+				})
+			}
+		})
+		$(document).on("click",'#logout',function(){
+			var r = confirm("确定退出？");
+			if (r) {
+				$.post('/ThinkPHP/index.php/Admin/Index/logout',{},function(data){
+					var dt = eval("("+data+")");
+					if (dt.code===0) {
+						console.log(dt)
+						window.location = '/ThinkPHP/Admin/login'
+					}
+				})
 			}
 		})
 	})

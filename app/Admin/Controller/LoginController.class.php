@@ -12,8 +12,8 @@ class LoginController extends Controller {
   	$password = $_POST['password'];
   	//查找输入的用户名是否存在
 	if($user->where("username ='$username' AND pwd = '$password'")->find()){                   		
-		session(username,$username);
-		$url=U('/Admin/Index/');			
+		session('username',$username);
+		$url=U('/Admin/Index/');		
 		redirect($url,0, '跳转中...');
 	}else{
 		$url = U("/Admin/login");

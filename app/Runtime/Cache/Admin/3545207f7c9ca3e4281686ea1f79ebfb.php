@@ -17,9 +17,8 @@
 		<h2>光电技术实验中心后台</h2>
 		<div class="info-con">
 			<ul class="clear">
-				<li>222 |</li>
-				<li>222 |</li>
-				<li>222 </li>
+				<li><?php echo ($name); ?> |</li>
+				<li id="logout">退出 </li>
 			</ul>
 		</div>
 	</header>
@@ -35,11 +34,20 @@
 			</div>
 			<div class="col-xs-10 right-con">
 				<div class="news_con">
-					<?php if(is_array($news_list)): $i = 0; $__LIST__ = $news_list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo_c): $mod = ($i % 2 );++$i;?><div>
-							<?php echo ($vo_c["nid"]); ?> <br>
-							<?php echo ($vo_c["title"]); ?> <br>
-							<?php echo ($vo_c["content"]); ?> <br>
-							<?php echo ($vo_c["sendtime"]); ?> <br>
+					<?php if(is_array($news_list)): $i = 0; $__LIST__ = $news_list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo_c): $mod = ($i % 2 );++$i;?><div class="article_div">
+							<div class="article_h_msg">
+								<span class="article_id">ID:<?php echo ($vo_c["id"]); ?></span>
+								<span class="article_title">新闻标题:<?php echo ($vo_c["title"]); ?>
+								</span>
+								<span class="delete_article">
+									删除
+								</span>
+							</div>
+							<div class="article_content"><?php echo ($vo_c["content"]); ?>
+							</div>
+							<div class="sendtime"><?php echo ($vo_c["sendtime"]); ?>
+							</div> 
+
 						</div><?php endforeach; endif; else: echo "" ;endif; ?>
 					<div class="page"><?php echo ($news_page); ?></div>
 				</div>
@@ -53,13 +61,29 @@
 </body>
 <script>
 	$(function(){
-		$(document).on("click",".left-nav li",function(){
-			if ($(this).hasClass("nav-on")) {
-				return false;
-			}else{
-				$(this).addClass("nav-on").siblings("li").removeClass("nav-on");
-				var child_class = $(this).find("a").attr("class").split("_btn");
-				$("."+child_class[0]+"_con").show().siblings().hide();
+		$(document).on("click",'.delete_article',function(){
+			var r = confirm("确定删除新闻？");
+			if (r) {
+				var id = $(this).parent().find(".article_id").text().replace("ID:",'').trim();
+				$.post('/ThinkPHP/index.php/Admin/News/delete',{"id":id},function(data){
+					var dt = eval("("+data+")");
+					console.log(dt)
+					alert(dt.msg);
+					location.reload();
+				})
+			}
+		})
+
+		$(document).on("click",'#logout',function(){
+			var r = confirm("确定退出？");
+			if (r) {
+				$.post('/ThinkPHP/Admin/Index/logout',{},function(data){
+					var dt = eval("("+data+")");
+					if (dt.code===0) {
+						console.log(dt)
+						window.location = '/ThinkPHP/Admin/login'
+					}
+				})
 			}
 		})
 	})
