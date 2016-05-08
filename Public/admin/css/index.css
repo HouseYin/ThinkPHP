@@ -14,6 +14,9 @@ header{
 .ml50{
 	margin-left: 50px;
 }
+.none{
+	display: none;
+}
 .clear:after{
 	content: '';
 	display: block;
@@ -84,9 +87,8 @@ footer{
 	
 }
 #submit{
-	position: absolute;
-	bottom: 10px;
-	right: 15px;
+	float: left;
+	margin: 10px 0;
 	width: 60px;
 	height: 30px;
 	background: grey;
@@ -97,8 +99,11 @@ footer{
 	cursor: pointer;
 	z-index: 99999
 }
-.typeclass,.tabclass,.a_title_con{
-	display: inline-block;
+#news_S{
+	display: none;
+}
+.typeclass,.tabclass,.a_title_con,.newsclass{
+	float: left;
 }
 .article_con{
 	overflow-y: scroll;

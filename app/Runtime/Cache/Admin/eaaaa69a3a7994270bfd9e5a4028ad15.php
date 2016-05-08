@@ -102,7 +102,8 @@
 		$(document).on("click",'.config_delete',function(){
 			var r = confirm("确定删除？");
 			if (r) {
-				var id = $(this).parent().attr("id");
+				var id = parseInt($(this).parent().parent().attr("id"),10);
+				console.log(id)
 				$.post('/ThinkPHP/index.php/Admin/Index/delConfig',{"id":id},function(data){
 					console.log(data);
 					var dt = eval("("+data+")");

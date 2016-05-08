@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit();?>﻿<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -26,7 +26,7 @@
 		<div class="collapse navbar-collapse navbar-responsive-collapse">
 			<ul class="nav navbar-nav">
 				<li class="nav_item active">
-					<a class="nav_link" data-toggle="dropdown" href="http://localhost/ThinkPHP/home/index">网站首页</a>
+					<a class="nav_link" href="http://localhost/ThinkPHP/home/index.html">网站首页</a>
 				<!--
 				<ul class="dropdown-menu">
 					<li class="list"></li>
@@ -52,85 +52,17 @@
 		<div class="row">
 			<div class="col-xs-9 main-col">
 				<div class="new-est">
-					<?php echo ($new_est[title]); ?>：<?php echo ($new_est[content]); ?>
+					最新公告：<a href="./news.html?id=<?php echo ($new_est['id']); ?>"><?php echo ($new_est[title]); ?></a>
 				</div>
 				<div class="main_c">
-					<div class="main_c_title">课程简介</div>
-					<div class="main_c_content"><?php echo ($kcjj[content]); ?></div>
-				</div>
-				<div class="project clear">
-					<div class="syxm">
-						<div class="syxm_title">
-							实验项目
-						</div>
-						<div class="syxm_content">
-							<ul>
-							<?php if(is_array($news_1)): $i = 0; $__LIST__ = $news_1;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo_1): $mod = ($i % 2 );++$i;?><li class="list">
-											<a href="./news.html?id=<?php echo ($vo_1['id']); ?>"><?php echo ($vo_1['title']); ?></a>
-											<span class="fr"><?php echo ($vo_1['sendtime']); ?></span>
-										</li><?php endforeach; endif; else: echo "" ;endif; ?>
-							</ul>
-						</div>
-					</div>
-					<div class="cxcg">
-						<div class="cxcg_title">创新实践和成果</div>
-						<div class="cxcg_content">
-							<ul>
-							<?php if(is_array($news_2)): $i = 0; $__LIST__ = $news_2;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo_2): $mod = ($i % 2 );++$i;?><li class="list">
-											<a href="./news.html?id=<?php echo ($vo_2['id']); ?>"><?php echo ($vo_2['title']); ?></a>
-											<span class="fr"><?php echo ($vo_2['sendtime']); ?></span>
-										</li><?php endforeach; endif; else: echo "" ;endif; ?>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="jxtp">
-					<div class="jxtp_title">教学图片</div>
-					<div class="jxtp_content">
-						<ul class="clear">
-							<li><img src="/ThinkPHP/Public/img/0.jpg" alt=""></li>
-							<li><img src="/ThinkPHP/Public/img/1.jpg" alt=""></li>
-							<li><img src="/ThinkPHP/Public/img/2.jpg" alt=""></li>
-							<li><img src="/ThinkPHP/Public/img/3.jpg" alt=""></li>
-							<li><img src="/ThinkPHP/Public/img/4.jpg" alt=""></li>
-							<li><img src="/ThinkPHP/Public/img/5.jpg" alt=""></li>
-						</ul>
-					</div>
-				</div>
-				<div class="project clear">
-					<div class="zxjj">
-						<div class="zxjj_title">中心简介</div>
-						<div class="zxjj_content">
-							<ul class="clear">
-							<?php if(is_array($news_3)): $i = 0; $__LIST__ = $news_3;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo_3): $mod = ($i % 2 );++$i;?><li class="list">
-											<a href="./news.html?id=<?php echo ($vo_3['id']); ?>"><?php echo ($vo_3['title']); ?></a>
-											<span class="fr"><?php echo ($vo_3['sendtime']); ?></span>
-										</li><?php endforeach; endif; else: echo "" ;endif; ?>
-							</ul>
-						</div>
-					</div>
-					<div class="jxzy">
-						<div class="jxzy_title">教学资源和设备</div>
-						<div class="jxzy_content">
-							<ul>
-							<?php if(is_array($news_4)): $i = 0; $__LIST__ = $news_4;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo_4): $mod = ($i % 2 );++$i;?><li class="list">
-											<a href="./news.html?id=<?php echo ($vo_4['id']); ?>"><?php echo ($vo_4['title']); ?></a>
-											<span class="fr"><?php echo ($vo_4['sendtime']); ?></span>
-										</li><?php endforeach; endif; else: echo "" ;endif; ?>
-							</ul>
-						</div>
-					</div>
+					<div class="main_c_title"></div>
+					<div class="main_c_content"></div>
 				</div>
 			</div>
 			<div class="col-xs-3 side-col">
 				<div class="side-1">
 					<ul>
-						<li></li>
-					</ul>
-				</div>
-				<div class="side-2">
-					<ul>
-						<li></li>
+						
 					</ul>
 				</div>
 			</div>
@@ -148,6 +80,40 @@
 	</div>
 </body>
 <script>
+	$(function(){
+		function GetQueryString(str) {
+			var href = String(window.document.location.href);
+			var rs = new RegExp("([\?&])(" + str + ")=([^&]*)(&|$)", "gi").exec(href);
+			if (rs) {
+				return decodeURI(rs[3]);
+			} else {
+				return '';
+			}
+		}
+
+		var id = GetQueryString("id");
+		console.log(id);
+		if (id) {
+			$.post('/ThinkPHP/index.php/Home/Article/article',{id:id},function(data){
+				var json_data = eval("("+data+")");
+				var link = window.location.href;
+				var _index = link.indexOf("=");
+				console.log(json_data);
+				$(".main_c_title").text(json_data.msg.title);
+				$(".main_c_content").html(json_data.msg.content)
+				var arr = json_data.arr;
+				$(arr).each(function(index,item){
+					if (item.id!=id) {
+						var li = $("<li>");
+						var a = $("<a>");
+						a.attr("href",link.replace(link.substr(_index+1),item.id)).text(item.title)
+						li.append(a);
+						$(".side-1 ul").append(li);
+					}
+				})
+			})
+		}
+	})
 	$(document).ready(function(){ 
 		function resize(){
 			var innerW = window.innerWidth;
@@ -185,10 +151,10 @@
 		var jxtp_timer = setInterval(function(){
 			if (i<img_lenght) {
 				$(".jxtp li").each(function(index,item){
-					var now_l = parseInt($(item).css("left"),10);
+					var now_l = parseInt($(item).css("left"),10)
 					$(item).animate({left:now_l-140+'px'});
 				})
-				//console.log(i)
+				console.log(i)
 				i++;
 			}else{
 				$(".jxtp li").each(function(index,item){

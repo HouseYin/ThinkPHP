@@ -1,7 +1,11 @@
-a,a:hover{text-decoration: none}
-ul{
-	list-style: none;
+html,body{
+	color:#777;
 }
+a:link{text-decoration: none;color: #777}
+a:visited{text-decoration: none;color: #777}
+a:hover{text-decoration: underline;color: #777}
+a:active{text-decoration: none;color: #777}
+a:
 body > div{max-width: 960px;margin: 0 auto}
 header{
 	max-width: 960px;
@@ -9,6 +13,18 @@ header{
 	text-align: center;
 	background: url(../../img/banner.jpg) no-repeat top center;
 	background-size: 100%;
+}
+.clear:after{
+	content: '';
+	display: block;
+	width: 0;
+	clear: both;
+}
+.fr{
+	float: right;
+}
+.ml3{
+	margin-left: 3%;
 }
 .nav_con{
 	max-width: 960px;
@@ -29,7 +45,114 @@ header{
 	display: block;
 	clear: both;
 }
+.container{
+	width: 100%;
+	max-width: 960px;
+}
+.main-col{
+	padding: 0;
+}
+.new-est{
+	background: #F8F8F8;
+	margin: 10px 0 0;
+	padding:0;
+	border:1px solid #ddd;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	height: 30px;
+	line-height: 30px;
+	text-indent: 10px;
+}
+.container p{
+	text-indent: 30px;
+}
+.main_c,.syxm,.cxcg,.jxtp,.zxjj,.jxzy{
+	border:1px solid #ddd;
+	margin-top: 10px;
+}
+.main_c_title,.syxm_title,.cxcg_title,.jxtp_title,.zxjj_title,.jxzy_title{
+	height: 30px;
+	line-height: 30px;
+	background: #F8F8F8;
+	text-indent: 10px;
+	border-bottom: 1px solid #ddd;
+}
+.main_c_content{
+	padding:10px 10px;
+}
+.project{
+	margin-top: 10px;
+}
+.project .list{
+	margin: 5px 5px 0 0;
+}
+.project>div{
+	width:49%;
+}
+.syxm,.zxjj{
+	float: left;
+}
+.cxcg,.jxzy{
+	float: right;
+}
+.jxtp{
+	position: relative;
+}
+.jxtp_content{
+
+}
+.jxtp ul{
+	position: relative;
+	list-style: none;
+	height: 100px;
+	overflow: hidden;
+	padding: 10px;
+}
+.jxtp li{
+	position: absolute;
+	float: left;
+	margin:0 10px;
+}
+.bottom-msg{
+	margin-top: 10px;
+	text-align: center;
+	background: #5F75B5;
+	height: 30px;
+	line-height: 30px;
+	max-width: 960px;
+	margin: 10px auto;
+}
+.bottom-msg a{
+	color: #fff
+}
+.bottom-msg ul{
+	padding:0;
+	display: inline-block;
+	color: #fff;
+
+}
+.bottom-msg li{
+	list-style: none;
+	float: left;
+	margin: 0 10px;
+}
+
+
+.side-col >div{
+	border:1px solid #ddd;
+	margin: 10px;
+}
+.side-col li{
+	margin: 5px 0;
+}
+.side-col li a{
+	display: block;
+	width: 100%;
+
+}
 .footer{
 	margin: 0 auto;
 	text-align: center;
+	max-width: 960px;
 }

@@ -1,0 +1,59 @@
+[ 2016-05-04T00:21:47+08:00 ] ::1 /ThinkPHP/index.php/home/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_bigclass` [ RunTime:0.7670s ]
+SQL: SHOW COLUMNS FROM `think_smallclass` [ RunTime:0.2930s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_bigclass` LIMIT 1   [ RunTime:0.0450s ]
+SQL: SELECT `id`,`bid`,`bname` FROM `think_bigclass` ORDER BY id  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`bid`,`sid`,`sname` FROM `think_smallclass` ORDER BY id  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.2000s ]
+SQL: SELECT * FROM `think_config` WHERE `title` = '最新公告' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_config` WHERE ( title='课程简介' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: aid G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Home\2bc71d220ff77e6b12bf354b9e8a67ea.php 第 40 行.
+NOTIC: [8] Undefined index: aid G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Home\2bc71d220ff77e6b12bf354b9e8a67ea.php 第 40 行.
+NOTIC: [8] Undefined index: aid G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Home\2bc71d220ff77e6b12bf354b9e8a67ea.php 第 40 行.
+NOTIC: [8] Undefined index: aid G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Home\2bc71d220ff77e6b12bf354b9e8a67ea.php 第 40 行.
+NOTIC: [8] Undefined index: aid G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Home\2bc71d220ff77e6b12bf354b9e8a67ea.php 第 40 行.
+NOTIC: [8] Undefined index: aid G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Home\2bc71d220ff77e6b12bf354b9e8a67ea.php 第 40 行.
+NOTIC: [8] Undefined index: aid G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Home\2bc71d220ff77e6b12bf354b9e8a67ea.php 第 40 行.
+NOTIC: [8] Undefined index: aid G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Home\2bc71d220ff77e6b12bf354b9e8a67ea.php 第 40 行.
+NOTIC: [8] Undefined index: aid G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Home\2bc71d220ff77e6b12bf354b9e8a67ea.php 第 40 行.
+NOTIC: [8] Undefined index: aid G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Home\2bc71d220ff77e6b12bf354b9e8a67ea.php 第 40 行.
+NOTIC: [8] Undefined index: aid G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Home\2bc71d220ff77e6b12bf354b9e8a67ea.php 第 40 行.
+NOTIC: [8] Undefined index: aid G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Home\2bc71d220ff77e6b12bf354b9e8a67ea.php 第 40 行.
+NOTIC: [8] Undefined index: aid G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Home\2bc71d220ff77e6b12bf354b9e8a67ea.php 第 40 行.
+NOTIC: [8] Undefined index: aid G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Home\2bc71d220ff77e6b12bf354b9e8a67ea.php 第 40 行.
+NOTIC: [8] Undefined index: aid G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Home\2bc71d220ff77e6b12bf354b9e8a67ea.php 第 40 行.
+NOTIC: [8] Undefined index: aid G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Home\2bc71d220ff77e6b12bf354b9e8a67ea.php 第 40 行.
+NOTIC: [8] Undefined index: aid G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Home\2bc71d220ff77e6b12bf354b9e8a67ea.php 第 40 行.
+NOTIC: [8] Undefined index: aid G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Home\2bc71d220ff77e6b12bf354b9e8a67ea.php 第 40 行.
+NOTIC: [8] Undefined index: aid G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Home\2bc71d220ff77e6b12bf354b9e8a67ea.php 第 40 行.
+NOTIC: [8] Undefined index: aid G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Home\2bc71d220ff77e6b12bf354b9e8a67ea.php 第 40 行.
+NOTIC: [8] Undefined index: aid G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Home\2bc71d220ff77e6b12bf354b9e8a67ea.php 第 40 行.
+NOTIC: [8] Undefined index: aid G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Home\2bc71d220ff77e6b12bf354b9e8a67ea.php 第 40 行.
+NOTIC: [8] Undefined index: aid G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Home\2bc71d220ff77e6b12bf354b9e8a67ea.php 第 40 行.
+NOTIC: [8] Undefined index: aid G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Home\2bc71d220ff77e6b12bf354b9e8a67ea.php 第 40 行.
+NOTIC: [8] Undefined index: aid G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Home\2bc71d220ff77e6b12bf354b9e8a67ea.php 第 40 行.
+NOTIC: [8] Undefined index: aid G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Home\2bc71d220ff77e6b12bf354b9e8a67ea.php 第 40 行.
+NOTIC: [8] Undefined index: aid G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Home\2bc71d220ff77e6b12bf354b9e8a67ea.php 第 40 行.
+NOTIC: [8] Undefined index: aid G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Home\2bc71d220ff77e6b12bf354b9e8a67ea.php 第 40 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Home\2bc71d220ff77e6b12bf354b9e8a67ea.php 第 55 行.
+NOTIC: [8] Use of undefined constant content - assumed 'content' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Home\2bc71d220ff77e6b12bf354b9e8a67ea.php 第 55 行.
+NOTIC: [8] Use of undefined constant content - assumed 'content' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Home\2bc71d220ff77e6b12bf354b9e8a67ea.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

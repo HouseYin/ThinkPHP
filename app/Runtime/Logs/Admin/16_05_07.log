@@ -1,0 +1,1690 @@
+[ 2016-05-07T14:07:30+08:00 ] ::1 /ThinkPHP/index.php/admin/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-07T14:07:30+08:00 ] ::1 /ThinkPHP/index.php/Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-07T14:31:53+08:00 ] ::1 /ThinkPHP/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `think_user` WHERE ( username ='johnson' AND pwd = 'gdgydx520' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-05-07T14:31:53+08:00 ] ::1 /ThinkPHP/index.php/Admin/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `think_config` ORDER BY id  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 41 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 42 行.
+NOTIC: [8] Use of undefined constant content - assumed 'content' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 43 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 41 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 42 行.
+NOTIC: [8] Use of undefined constant content - assumed 'content' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 43 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 41 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 42 行.
+NOTIC: [8] Use of undefined constant content - assumed 'content' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 43 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 41 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 42 行.
+NOTIC: [8] Use of undefined constant content - assumed 'content' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 43 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 41 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 42 行.
+NOTIC: [8] Use of undefined constant content - assumed 'content' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T14:32:04+08:00 ] ::1 /ThinkPHP/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `think_user` WHERE ( username ='johnson' AND pwd = 'gdgydx52' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-05-07T14:32:06+08:00 ] ::1 /ThinkPHP/index.php/Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T14:35:00+08:00 ] ::1 /ThinkPHP/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `think_user` WHERE ( username ='johnson' AND pwd = 'gdgydx5200' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-05-07T14:35:02+08:00 ] ::1 /ThinkPHP/index.php/Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-07T14:35:09+08:00 ] ::1 /ThinkPHP/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `think_user` WHERE ( username ='johnson' AND pwd = 'gdgydx520' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-05-07T14:35:09+08:00 ] ::1 /ThinkPHP/index.php/Admin/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `think_config` ORDER BY id  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 41 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 42 行.
+NOTIC: [8] Use of undefined constant content - assumed 'content' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 43 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 41 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 42 行.
+NOTIC: [8] Use of undefined constant content - assumed 'content' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 43 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 41 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 42 行.
+NOTIC: [8] Use of undefined constant content - assumed 'content' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 43 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 41 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 42 行.
+NOTIC: [8] Use of undefined constant content - assumed 'content' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 43 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 41 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 42 行.
+NOTIC: [8] Use of undefined constant content - assumed 'content' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T14:36:56+08:00 ] ::1 /ThinkPHP/index.php/Admin/Index/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T14:36:57+08:00 ] ::1 /ThinkPHP/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-07T14:37:05+08:00 ] ::1 /ThinkPHP/Admin/article.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-05-07T14:37:07+08:00 ] ::1 /ThinkPHP/index.php/Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T14:37:23+08:00 ] ::1 /ThinkPHP/index.php/Admin/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T14:37:23+08:00 ] ::1 /ThinkPHP/index.php/Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T14:37:33+08:00 ] ::1 /ThinkPHP/index.php/Admin/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T14:37:33+08:00 ] ::1 /ThinkPHP/index.php/Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-05-07T14:37:40+08:00 ] ::1 /ThinkPHP/index.php/Admin/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T14:37:40+08:00 ] ::1 /ThinkPHP/index.php/Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-07T14:39:10+08:00 ] ::1 /ThinkPHP/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `think_user` WHERE ( username ='johnson' AND pwd = 'gdgydx520' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-05-07T14:39:10+08:00 ] ::1 /ThinkPHP/index.php/Admin/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `think_config` ORDER BY id  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 41 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 42 行.
+NOTIC: [8] Use of undefined constant content - assumed 'content' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 43 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 41 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 42 行.
+NOTIC: [8] Use of undefined constant content - assumed 'content' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 43 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 41 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 42 行.
+NOTIC: [8] Use of undefined constant content - assumed 'content' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 43 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 41 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 42 行.
+NOTIC: [8] Use of undefined constant content - assumed 'content' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 43 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 41 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 42 行.
+NOTIC: [8] Use of undefined constant content - assumed 'content' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-07T14:39:12+08:00 ] ::1 /ThinkPHP/index.php/Admin/article/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `think_article` ORDER BY id LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T14:39:14+08:00 ] ::1 /ThinkPHP/index.php/Admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `think_config` ORDER BY id  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 41 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 42 行.
+NOTIC: [8] Use of undefined constant content - assumed 'content' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 43 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 41 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 42 行.
+NOTIC: [8] Use of undefined constant content - assumed 'content' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 43 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 41 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 42 行.
+NOTIC: [8] Use of undefined constant content - assumed 'content' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 43 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 41 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 42 行.
+NOTIC: [8] Use of undefined constant content - assumed 'content' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 43 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 41 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 42 行.
+NOTIC: [8] Use of undefined constant content - assumed 'content' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T14:39:16+08:00 ] ::1 /ThinkPHP/index.php/Admin/news/index/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_news` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `think_news` ORDER BY id LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_news` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.108006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.108006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T14:39:19+08:00 ] ::1 /ThinkPHP/index.php/Admin/article/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `think_article` ORDER BY id LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T14:39:20+08:00 ] ::1 /ThinkPHP/index.php/Admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `think_config` ORDER BY id  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 41 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 42 行.
+NOTIC: [8] Use of undefined constant content - assumed 'content' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 43 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 41 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 42 行.
+NOTIC: [8] Use of undefined constant content - assumed 'content' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 43 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 41 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 42 行.
+NOTIC: [8] Use of undefined constant content - assumed 'content' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 43 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 41 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 42 行.
+NOTIC: [8] Use of undefined constant content - assumed 'content' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 43 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 41 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 42 行.
+NOTIC: [8] Use of undefined constant content - assumed 'content' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-05-07T14:39:22+08:00 ] ::1 /ThinkPHP/index.php/Admin/edit/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-05-07T14:39:25+08:00 ] ::1 /ThinkPHP/index.php/Admin/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `think_config` ORDER BY id  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 41 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 42 行.
+NOTIC: [8] Use of undefined constant content - assumed 'content' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 43 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 41 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 42 行.
+NOTIC: [8] Use of undefined constant content - assumed 'content' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 43 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 41 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 42 行.
+NOTIC: [8] Use of undefined constant content - assumed 'content' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 43 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 41 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 42 行.
+NOTIC: [8] Use of undefined constant content - assumed 'content' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 43 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 41 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 42 行.
+NOTIC: [8] Use of undefined constant content - assumed 'content' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T14:47:17+08:00 ] ::1 /ThinkPHP/index.php/Admin/article/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `think_article` ORDER BY id LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-05-07T15:23:07+08:00 ] ::1 /ThinkPHP/index.php/Admin/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-07T22:23:01+08:00 ] ::1 /ThinkPHP/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: name G:\XAMP\htdocs\ThinkPHP\app\Admin\Controller\LoginController.class.php 第 11 行.
+NOTIC: [8] Undefined index: password G:\XAMP\htdocs\ThinkPHP\app\Admin\Controller\LoginController.class.php 第 12 行.
+SQL: SELECT * FROM `think_user` WHERE ( username ='' AND pwd = '' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-05-07T22:23:03+08:00 ] ::1 /ThinkPHP/index.php/Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-07T22:23:05+08:00 ] ::1 /ThinkPHP/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `think_user` WHERE ( username ='johnson' AND pwd = 'gdgydx520' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-05-07T22:23:05+08:00 ] ::1 /ThinkPHP/index.php/Admin/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `think_config` ORDER BY id  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 41 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 42 行.
+NOTIC: [8] Use of undefined constant content - assumed 'content' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 43 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 41 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 42 行.
+NOTIC: [8] Use of undefined constant content - assumed 'content' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 43 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 41 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 42 行.
+NOTIC: [8] Use of undefined constant content - assumed 'content' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 43 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 41 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 42 行.
+NOTIC: [8] Use of undefined constant content - assumed 'content' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 43 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 41 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 42 行.
+NOTIC: [8] Use of undefined constant content - assumed 'content' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-07T22:23:07+08:00 ] ::1 /ThinkPHP/index.php/Admin/edit/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-07T22:32:45+08:00 ] ::1 /ThinkPHP/index.php/Admin/edit/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-05-07T22:33:26+08:00 ] ::1 /ThinkPHP/index.php/Admin/edit/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T22:34:08+08:00 ] ::1 /ThinkPHP/index.php/Admin/edit/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T22:34:46+08:00 ] ::1 /ThinkPHP/index.php/Admin/edit/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T22:35:06+08:00 ] ::1 /ThinkPHP/index.php/Admin/edit/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T22:35:26+08:00 ] ::1 /ThinkPHP/index.php/Admin/edit/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T22:36:31+08:00 ] ::1 /ThinkPHP/index.php/Admin/edit/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T22:36:53+08:00 ] ::1 /ThinkPHP/index.php/Admin/edit/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T22:36:58+08:00 ] ::1 /ThinkPHP/index.php/Admin/edit/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T22:37:42+08:00 ] ::1 /ThinkPHP/index.php/Admin/edit/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-05-07T22:38:09+08:00 ] ::1 /ThinkPHP/index.php/Admin/edit/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-07T22:38:46+08:00 ] ::1 /ThinkPHP/index.php/Admin/edit/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T22:39:13+08:00 ] ::1 /ThinkPHP/index.php/Admin/edit/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T22:45:26+08:00 ] ::1 /ThinkPHP/index.php/Admin/Edit/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id G:\XAMP\htdocs\ThinkPHP\app\Admin\Controller\EditController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `think_news` [ RunTime:0.0030s ]
+ERR: 1048:Column 'nid' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_news` (`title`,`nid`,`content`,`sendTime`) VALUES ('哈哈',NULL,'<p>额</p>','2016-05-07 22:45:26')
+ERR: 1048:Column 'nid' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_news` (`title`,`nid`,`content`,`sendTime`) VALUES ('哈哈',NULL,'<p>额</p>','2016-05-07 22:45:26')
+
+[ 2016-05-07T22:45:29+08:00 ] ::1 /ThinkPHP/index.php/Admin/Edit/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id G:\XAMP\htdocs\ThinkPHP\app\Admin\Controller\EditController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `think_news` [ RunTime:0.0050s ]
+ERR: 1048:Column 'nid' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_news` (`title`,`nid`,`content`,`sendTime`) VALUES ('哈哈',NULL,'<p>额</p>','2016-05-07 22:45:29')
+ERR: 1048:Column 'nid' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_news` (`title`,`nid`,`content`,`sendTime`) VALUES ('哈哈',NULL,'<p>额</p>','2016-05-07 22:45:29')
+
+[ 2016-05-07T22:45:58+08:00 ] ::1 /ThinkPHP/index.php/Admin/Edit/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id G:\XAMP\htdocs\ThinkPHP\app\Admin\Controller\EditController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `think_news` [ RunTime:0.0300s ]
+ERR: 1048:Column 'nid' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_news` (`title`,`nid`,`content`,`sendTime`) VALUES ('哈哈',NULL,'<p>额</p>','2016-05-07 22:45:58')
+ERR: 1048:Column 'nid' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_news` (`title`,`nid`,`content`,`sendTime`) VALUES ('哈哈',NULL,'<p>额</p>','2016-05-07 22:45:58')
+
+[ 2016-05-07T22:46:33+08:00 ] ::1 /ThinkPHP/index.php/Admin/edit/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T22:46:40+08:00 ] ::1 /ThinkPHP/index.php/Admin/Edit/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id G:\XAMP\htdocs\ThinkPHP\app\Admin\Controller\EditController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `think_news` [ RunTime:0.0040s ]
+ERR: 1048:Column 'nid' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_news` (`title`,`nid`,`content`,`sendTime`) VALUES ('啊',NULL,'<p>啊啊阿阿斯顿</p>','2016-05-07 22:46:40')
+ERR: 1048:Column 'nid' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_news` (`title`,`nid`,`content`,`sendTime`) VALUES ('啊',NULL,'<p>啊啊阿阿斯顿</p>','2016-05-07 22:46:40')
+
+[ 2016-05-07T22:47:15+08:00 ] ::1 /ThinkPHP/index.php/Admin/Edit/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id G:\XAMP\htdocs\ThinkPHP\app\Admin\Controller\EditController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0030s ]
+ERR: 1048:Column 'bid' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_article` (`title`,`bid`,`content`,`sendTime`) VALUES ('啊',NULL,'<p>啊啊阿阿斯顿</p>','2016-05-07 22:47:15')
+ERR: 1048:Column 'bid' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_article` (`title`,`bid`,`content`,`sendTime`) VALUES ('啊',NULL,'<p>啊啊阿阿斯顿</p>','2016-05-07 22:47:15')
+
+[ 2016-05-07T22:47:30+08:00 ] ::1 /ThinkPHP/index.php/Admin/Edit/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id G:\XAMP\htdocs\ThinkPHP\app\Admin\Controller\EditController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0040s ]
+ERR: 1048:Column 'bid' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_article` (`title`,`bid`,`content`,`sendTime`) VALUES ('啊',NULL,'<p>啊啊阿阿斯顿</p>','2016-05-07 22:47:30')
+ERR: 1048:Column 'bid' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_article` (`title`,`bid`,`content`,`sendTime`) VALUES ('啊',NULL,'<p>啊啊阿阿斯顿</p>','2016-05-07 22:47:30')
+
+[ 2016-05-07T22:47:34+08:00 ] ::1 /ThinkPHP/index.php/Admin/edit/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T22:47:38+08:00 ] ::1 /ThinkPHP/index.php/Admin/Edit/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: typeclass G:\XAMP\htdocs\ThinkPHP\app\Admin\Controller\EditController.class.php 第 17 行.
+NOTIC: [8] Undefined index: id G:\XAMP\htdocs\ThinkPHP\app\Admin\Controller\EditController.class.php 第 18 行.
+NOTIC: [8] Undefined index: title G:\XAMP\htdocs\ThinkPHP\app\Admin\Controller\EditController.class.php 第 19 行.
+NOTIC: [8] Undefined index: content G:\XAMP\htdocs\ThinkPHP\app\Admin\Controller\EditController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: bid G:\XAMP\htdocs\ThinkPHP\app\Admin\Controller\EditController.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T22:47:46+08:00 ] ::1 /ThinkPHP/index.php/Admin/Edit/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id G:\XAMP\htdocs\ThinkPHP\app\Admin\Controller\EditController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0030s ]
+ERR: 1048:Column 'bid' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_article` (`title`,`bid`,`content`,`sendTime`) VALUES ('啊',NULL,'<p>啊<br/></p>','2016-05-07 22:47:46')
+ERR: 1048:Column 'bid' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_article` (`title`,`bid`,`content`,`sendTime`) VALUES ('啊',NULL,'<p>啊<br/></p>','2016-05-07 22:47:46')
+
+[ 2016-05-07T22:49:07+08:00 ] ::1 /ThinkPHP/index.php/Admin/edit/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-05-07T22:49:10+08:00 ] ::1 /ThinkPHP/index.php/Admin/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-05-07T22:50:13+08:00 ] ::1 /ThinkPHP/index.php/Admin/edit/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T22:50:15+08:00 ] ::1 /ThinkPHP/index.php/Admin/Edit/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id G:\XAMP\htdocs\ThinkPHP\app\Admin\Controller\EditController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0000s ]
+ERR: 1048:Column 'bid' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_article` (`title`,`bid`,`content`,`sendTime`) VALUES ('啊',NULL,'<p>啊</p>','2016-05-07 22:50:15')
+ERR: 1048:Column 'bid' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_article` (`title`,`bid`,`content`,`sendTime`) VALUES ('啊',NULL,'<p>啊</p>','2016-05-07 22:50:15')
+
+[ 2016-05-07T22:51:57+08:00 ] ::1 /ThinkPHP/index.php/Admin/edit/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T22:52:00+08:00 ] ::1 /ThinkPHP/index.php/Admin/Edit/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: typeclass G:\XAMP\htdocs\ThinkPHP\app\Admin\Controller\EditController.class.php 第 17 行.
+NOTIC: [8] Undefined index: id G:\XAMP\htdocs\ThinkPHP\app\Admin\Controller\EditController.class.php 第 18 行.
+NOTIC: [8] Undefined index: title G:\XAMP\htdocs\ThinkPHP\app\Admin\Controller\EditController.class.php 第 19 行.
+NOTIC: [8] Undefined index: content G:\XAMP\htdocs\ThinkPHP\app\Admin\Controller\EditController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T22:52:02+08:00 ] ::1 /ThinkPHP/index.php/Admin/Edit/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id G:\XAMP\htdocs\ThinkPHP\app\Admin\Controller\EditController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0060s ]
+ERR: 1048:Column 'bid' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_article` (`title`,`bid`,`content`,`sendTime`) VALUES ('啊',NULL,'<p>啊</p>','2016-05-07 22:52:02')
+ERR: 1048:Column 'bid' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_article` (`title`,`bid`,`content`,`sendTime`) VALUES ('啊',NULL,'<p>啊</p>','2016-05-07 22:52:02')
+
+[ 2016-05-07T22:54:08+08:00 ] ::1 /ThinkPHP/index.php/Admin/edit/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T22:54:12+08:00 ] ::1 /ThinkPHP/index.php/Admin/edit/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T22:54:20+08:00 ] ::1 /ThinkPHP/index.php/Admin/Edit/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0100s ]
+SQL: INSERT INTO `think_article` (`title`,`bid`,`content`,`sendTime`) VALUES ('a','1','<p>啊</p>','2016-05-07 22:54:19') [ RunTime:0.4290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-07T22:57:33+08:00 ] ::1 /ThinkPHP/index.php/Admin/edit/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-05-07T22:59:32+08:00 ] ::1 /ThinkPHP/index.php/Admin/edit/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-07T22:59:52+08:00 ] ::1 /ThinkPHP/index.php/Admin/edit/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T23:00:01+08:00 ] ::1 /ThinkPHP/index.php/Admin/Edit/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0030s ]
+SQL: INSERT INTO `think_article` (`title`,`bid`,`content`,`sendTime`) VALUES ('啊','1','<p>啊啊</p>','2016-05-07 23:00:01') [ RunTime:0.1450s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' G:\XAMP\htdocs\ThinkPHP\app\Admin\Controller\EditController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' G:\XAMP\htdocs\ThinkPHP\app\Admin\Controller\EditController.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-05-07T23:00:37+08:00 ] ::1 /ThinkPHP/index.php/Admin/edit/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T23:00:41+08:00 ] ::1 /ThinkPHP/index.php/Admin/Edit/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0060s ]
+SQL: INSERT INTO `think_article` (`title`,`bid`,`content`,`sendTime`) VALUES ('啊','1','<p>啊</p>','2016-05-07 23:00:40') [ RunTime:0.2840s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' G:\XAMP\htdocs\ThinkPHP\app\Admin\Controller\EditController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' G:\XAMP\htdocs\ThinkPHP\app\Admin\Controller\EditController.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T23:01:44+08:00 ] ::1 /ThinkPHP/index.php/Admin/edit/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T23:01:47+08:00 ] ::1 /ThinkPHP/index.php/Admin/Edit/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0040s ]
+SQL: INSERT INTO `think_article` (`title`,`bid`,`content`,`sendTime`) VALUES ('啊','1','<p>啊</p>','2016-05-07 23:01:47') [ RunTime:0.1680s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' G:\XAMP\htdocs\ThinkPHP\app\Admin\Controller\EditController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' G:\XAMP\htdocs\ThinkPHP\app\Admin\Controller\EditController.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-07T23:02:10+08:00 ] ::1 /ThinkPHP/index.php/Admin/edit/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-07T23:02:13+08:00 ] ::1 /ThinkPHP/index.php/Admin/Edit/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0000s ]
+SQL: INSERT INTO `think_article` (`title`,`bid`,`content`,`sendTime`) VALUES ('啊','1','<p>啊啊</p>','2016-05-07 23:02:13') [ RunTime:0.2020s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' G:\XAMP\htdocs\ThinkPHP\app\Admin\Controller\EditController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' G:\XAMP\htdocs\ThinkPHP\app\Admin\Controller\EditController.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T23:02:48+08:00 ] ::1 /ThinkPHP/index.php/Admin/edit/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T23:02:53+08:00 ] ::1 /ThinkPHP/index.php/Admin/Edit/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0500s ]
+SQL: INSERT INTO `think_article` (`title`,`bid`,`content`,`sendTime`) VALUES ('q','1','<p>请求</p>','2016-05-07 23:02:52') [ RunTime:0.2500s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' G:\XAMP\htdocs\ThinkPHP\app\Admin\Controller\EditController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' G:\XAMP\htdocs\ThinkPHP\app\Admin\Controller\EditController.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-07T23:03:28+08:00 ] ::1 /ThinkPHP/index.php/Admin/edit/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-07T23:03:31+08:00 ] ::1 /ThinkPHP/index.php/Admin/Edit/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0000s ]
+SQL: INSERT INTO `think_article` (`title`,`bid`,`content`,`sendTime`) VALUES ('啊','1','<p>啊</p>','2016-05-07 23:03:31') [ RunTime:0.1610s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' G:\XAMP\htdocs\ThinkPHP\app\Admin\Controller\EditController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' G:\XAMP\htdocs\ThinkPHP\app\Admin\Controller\EditController.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-07T23:03:42+08:00 ] ::1 /ThinkPHP/index.php/Admin/edit/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-05-07T23:03:45+08:00 ] ::1 /ThinkPHP/index.php/Admin/Edit/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0040s ]
+SQL: INSERT INTO `think_article` (`title`,`bid`,`content`,`sendTime`) VALUES ('啊','1','<p>啊</p>','2016-05-07 23:03:45') [ RunTime:0.1720s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' G:\XAMP\htdocs\ThinkPHP\app\Admin\Controller\EditController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' G:\XAMP\htdocs\ThinkPHP\app\Admin\Controller\EditController.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-07T23:04:32+08:00 ] ::1 /ThinkPHP/index.php/Admin/edit/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-07T23:04:39+08:00 ] ::1 /ThinkPHP/index.php/Admin/Edit/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_news` [ RunTime:0.0030s ]
+SQL: INSERT INTO `think_news` (`title`,`nid`,`content`,`sendTime`) VALUES ('啊 ','2','<p>啊</p>','2016-05-07 23:04:39') [ RunTime:0.1570s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' G:\XAMP\htdocs\ThinkPHP\app\Admin\Controller\EditController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' G:\XAMP\htdocs\ThinkPHP\app\Admin\Controller\EditController.class.php 第 40 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2016-05-07T23:28:39+08:00 ] ::1 /ThinkPHP/index.php/Admin/Edit/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_news` [ RunTime:0.0000s ]
+SQL: INSERT INTO `think_news` (`title`,`nid`,`content`,`sendTime`) VALUES ('额','3','<p>额</p>','2016-05-07 23:28:39') [ RunTime:0.2390s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' G:\XAMP\htdocs\ThinkPHP\app\Admin\Controller\EditController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' G:\XAMP\htdocs\ThinkPHP\app\Admin\Controller\EditController.class.php 第 40 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-07T23:28:47+08:00 ] ::1 /ThinkPHP/index.php/Admin/Edit/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_news` [ RunTime:0.0000s ]
+SQL: INSERT INTO `think_news` (`title`,`nid`,`content`,`sendTime`) VALUES ('啊啊','4','<p>额啊</p>','2016-05-07 23:28:46') [ RunTime:0.0980s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' G:\XAMP\htdocs\ThinkPHP\app\Admin\Controller\EditController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' G:\XAMP\htdocs\ThinkPHP\app\Admin\Controller\EditController.class.php 第 40 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-07T23:32:26+08:00 ] ::1 /ThinkPHP/index.php/Admin/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `think_config` ORDER BY id  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 41 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 42 行.
+NOTIC: [8] Use of undefined constant content - assumed 'content' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 43 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 41 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 42 行.
+NOTIC: [8] Use of undefined constant content - assumed 'content' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 43 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 41 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 42 行.
+NOTIC: [8] Use of undefined constant content - assumed 'content' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 43 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 41 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 42 行.
+NOTIC: [8] Use of undefined constant content - assumed 'content' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 43 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 41 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 42 行.
+NOTIC: [8] Use of undefined constant content - assumed 'content' G:\XAMP\htdocs\ThinkPHP\app\Runtime\Cache\Admin\eaaaa69a3a7994270bfd9e5a4028ad15.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-07T23:32:28+08:00 ] ::1 /ThinkPHP/index.php/Admin/article/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `think_article` ORDER BY id LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
